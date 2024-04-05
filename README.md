@@ -9,13 +9,13 @@ Dscription
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Technologies used in this project
--React
--HTML
--CSS with BEM convention
--JavaScript
--MediaQueries
--Grid
--Flex
+- React
+- HTML
+- CSS with BEM convention
+- JavaScript
+- MediaQueries
+- Grid
+- Flex
 
 ## Available Scripts
 
