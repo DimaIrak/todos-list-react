@@ -20,10 +20,8 @@ export const Item = styled.li`
 `;
 
 export const Content = styled.span`
-    word-break: break-word;
-
-    ${({done}) => done && css`
-        text-decoration: line-through;
+    ${({ done }) => done && css`
+    text-decoration: line-through;
     `}
 `;
 
@@ -36,7 +34,7 @@ export const Button = styled.button`
     padding: 0;
     transition: background 1s;
 
-    ${({toggleDone}) => toggleDone && css`
+    ${({ toggleDone }) => toggleDone && css`
         background: ${({ theme }) => theme.color.teal};
 
         &:hover {
@@ -48,7 +46,7 @@ export const Button = styled.button`
         }
     `}
 
-    ${({remove}) => remove && css`
+    ${({ remove }) => remove && css`
         cursor: pointer;
         background: ${({ theme }) => theme.color.red};
         padding: 6px;
