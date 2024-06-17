@@ -3,7 +3,7 @@ export const theme = {
         lightGray: "#ddd",
         white: "#fff",
         forestGreen: "#228b22",
-        razzmatazz: "#e72c70",
+        red: "#ff0000",
         gallery: "#eee",
         teal: "#008080",
         silver: "#ccc",
