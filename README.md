@@ -11,11 +11,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Technologies used in this project
 - React
 - HTML
-- CSS with BEM convention
+- CSS 
 - JavaScript
 - MediaQueries
 - Grid
 - Flex
+- Immutability
+- LocalStorage
+- Styled Components
+- Custom Hooks
 
 ## Available Scripts
 
