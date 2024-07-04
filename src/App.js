@@ -3,7 +3,7 @@ import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
-import Container from "./Container";
+import { Container } from "./Container";
 import { useTasks } from "./useTasks";
 
 function App() {
@@ -41,7 +41,6 @@ function App() {
             toggleHideDone={toggleHideDone}
             setAllDone={setAllDone}
           />
-
         }
       />
     </Container>
