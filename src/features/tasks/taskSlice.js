@@ -21,9 +21,15 @@ const tasksSlice = createSlice({
             const index = tasks.findIndex(({ id }) => id === taskid);
             tasks.splice(index, 1);
         },
-        setAllDone: ({ tasks }) => {
-            tasks.done = true;
-        }
+        setAllDone: state => {
+            return {
+                ...state,
+                tasks: state.tasks.map(task => ({
+                    ...task,
+                    done: true
+                }))
+            };
+        },
     },
 });
 
