@@ -10,6 +10,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Technologies used in this project
 - React
+- React Hooks: useState,useRef
+- Redux: React-Redux,Redux Toolkit
+- Webpack
+- Babel
 - HTML
 - CSS 
 - JavaScript
