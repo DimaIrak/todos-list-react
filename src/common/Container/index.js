@@ -5,6 +5,10 @@ const Container = styled.main`
     max-width: 900px;
     padding: 25px;
     margin: 0 auto;
+    
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        padding: 0;
+    }
 `;
 
 export default Container;

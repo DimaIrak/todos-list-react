@@ -1,7 +1,15 @@
+import styled from "styled-components";
+
 const Header = ({ title }) => (
   <header>
-    <h1>{title}</h1>
+    <Title>{title}</Title>
   </header>
 );
+
+const Title = styled.h1`
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+      text-align: center;
+    }
+`;
 
 export default Header;
