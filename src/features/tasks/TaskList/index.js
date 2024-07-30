@@ -14,16 +14,16 @@ const TaskList = () => {
                     hidden={task.done && hideDone}
                 >
                     <Button
-                        toggleDone
+                        $toggleDone
                         onClick={() => dispatch(toggleTaskDone(task.id))}
                     >
                         {task.done ? "✔️" : ""}
                     </Button>
-                    <Content done={task.done}>
+                    <Content $done={task.done}>
                         {task.content}
                     </Content>
                     <Button
-                        remove
+                        $remove
                         onClick={() => dispatch(removeTask(task.id))}
                     >
                         🗑️
