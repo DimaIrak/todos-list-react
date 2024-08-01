@@ -3,7 +3,7 @@ import {
     toggleHideDone,
     setAllDone,
     fetchExampleTasks,
-} from "../taskSlice";
+} from "../../taskSlice";
 import { Wrapper, Button } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
 
