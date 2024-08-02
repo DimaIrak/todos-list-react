@@ -32,7 +32,7 @@ const tasksSlice = createSlice({
             };
         },
         fetchExampleTasks: () => { },
-        setTasks: (state, {payload: tasks}) => {
+        setTasks: (state, { payload: tasks }) => {
             state.tasks = tasks;
         }
     },
@@ -48,6 +48,6 @@ export const {
     setTasks,
 } = tasksSlice.actions;
 export const selectTasks = state => state.tasks;
-export const getTaskById = (state, taskId) => 
-    selectTasks(state).find(({ id }) => id === taskId);
+export const getTaskById = (state, taskId) =>
+    selectTasks(state.tasks).find(({ id }) => id === taskId);
 export default tasksSlice.reducer;
