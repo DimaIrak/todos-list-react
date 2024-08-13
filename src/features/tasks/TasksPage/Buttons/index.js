@@ -1,5 +1,5 @@
 import {
-    selectTasks,
+    selectTasksState,
     toggleHideDone,
     setAllDone,
     fetchExampleTasks,
@@ -8,7 +8,7 @@ import { Wrapper, Button } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
 
 const Buttons = () => {
-    const { tasks, hideDone } = useSelector(selectTasks);
+    const { tasks, hideDone } = useSelector(selectTasksState);
 
     const dispatch = useDispatch();
 
