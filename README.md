@@ -1,5 +1,5 @@
 # Task list
-![scrinshot of the side](image.png)
+![screenshot of the page](image-1.png)
 
 ## Demo
 https://dimairak.github.io/todos-list-react/
